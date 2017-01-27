@@ -1,4 +1,4 @@
-# Scribble-CN
+# scribble-cn
 
 ## Features
 
@@ -16,13 +16,13 @@
 
 ## Configuration
 
-- ```_config.yml```
+- Edit ```_config.yml```
 
 - Change ```about.md``` for blog intro.
 
 - For domain settings, see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
 
-- Options During Writing
+- Options during writing
 
     - **disqus: y**. If disqus is set to 'y', at the end of the post there will be a disqus thread, just like this one. To use disqus, you MUST [set up your own disqus account](http://disqus.com/).
 
