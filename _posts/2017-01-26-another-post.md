@@ -1,6 +1,6 @@
 ---
 layout: post
-title: More Post
+title: Another Post
 date: 2017-01-28 13:50:00
 ---
 
