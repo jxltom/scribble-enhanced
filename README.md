@@ -6,6 +6,8 @@
 
 - Wide page width
 
+- Enable or disable comments for each post
+
 ## Usage
 
 - Getting started
