@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
-    <meta content="{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}" property="og:title"/>
+
     {% include meta.html %}
+    {% include css_js.html %}
 
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/style.css"/>
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.url }}/feed.xml"/>
 </head>
 
