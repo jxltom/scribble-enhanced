@@ -1,5 +1,3 @@
-# scribble-cn
-
 A Jekyll theme which has been made some enhancements from [scribble](https://github.com/muan/scribble). See demo here [https://jxltom.github.io/scribble-cn/](https://jxltom.github.io/scribble-cn/).
 
 ## Overview
@@ -16,6 +14,7 @@ A Jekyll theme which has been made some enhancements from [scribble](https://git
 
     - Disqus
 
+    - Google Analytics
 
 ## Usage
 
