@@ -52,6 +52,8 @@
 
 ## Development
 
+Note that there are currently two branches. All development should be pushed to ```master```. Branch ```gh-pages`` is only for demostration.
+
 - Custom page width
 
     - Change ```max-width``` of ```footer``` and ```#container```
