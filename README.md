@@ -28,11 +28,11 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
 - Configuration
 
-    - ```_config.yml```
+    - Configuration of ```_config.yml```
 
-        - Set ```url``` if you website domain is not ```your_username.github.io```
+        - Set ```url``` if you website domain is not ```your_username.github.io```.
 
-    - Change ```about.md``` for as about page.
+    - Change ```about.md``` for ```about``` page.
 
     - For custom domain settings, set ```CNAME``` to your domain.
 
