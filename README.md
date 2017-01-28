@@ -89,3 +89,4 @@ Note that there are currently two branches. **All development should be pushed t
 - [kramdown Parser](https://kramdown.gettalong.org/parser/kramdown.html)
 - [GFM Parser](https://kramdown.gettalong.org/parser/gfm.html)
 - [The Open Graph protocol](http://ogp.me/)
+- [truncatewords is unsafe](https://github.com/barryclark/jekyll-now/issues/117)
