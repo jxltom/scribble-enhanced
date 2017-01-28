@@ -2,9 +2,9 @@ title:            scribble-cn
 # Site description showing in site meta data, leave empty if unwanted.
 description:      scribble-cn, a Jekyll theme
 
-
 # Your website URL without a slash at the end.
-# e.g. http://jxltom.github.io or http://jxltom.github.io/scribble-cn
+# Leave it empty if your URL is http://yourusername.github.io
+# or http://yourusername.github.io/repository-name
 # Used for sitemap.xml and feed.xml
 url:              ""
 
