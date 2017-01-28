@@ -92,3 +92,7 @@ Note that there are currently two branches. **All development should be pushed t
 - [GFM Parser](https://kramdown.gettalong.org/parser/gfm.html)
 - [The Open Graph protocol](http://ogp.me/)
 - [truncatewords is unsafe](https://github.com/barryclark/jekyll-now/issues/117)
+- [Do not include 404 page in sitemap.xml](https://github.com/barryclark/jekyll-now/pull/356)
+- [Adding permalink to 404.html](https://github.com/muan/scribble/pull/42)
+- [Creating a custom 404 page for your GitHub Pages site](https://help.github.com/articles/creating-a-custom-404-page-for-your-github-pages-site/)
+- [Update 404 for new Jekyll 3](https://github.com/barryclark/jekyll-now/pull/404)
