@@ -44,6 +44,8 @@
 
     - Edit ```_config.yml```
 
+        - Set ```url``` if you website is not ```your_username.github.io```
+
     - Change ```about.md``` for blog intro.
 
     - For domain settings, see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
