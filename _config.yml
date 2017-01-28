@@ -6,7 +6,7 @@ description:      scribble-cn, a Jekyll theme
 # Leave it empty if your URL is http://yourusername.github.io
 # or http://yourusername.github.io/repository-name
 # Used for sitemap.xml and feed.xml
-url:              https://jxltom.github.io/scribble-cn
+url:              ""
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
