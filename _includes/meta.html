@@ -6,15 +6,15 @@
 <meta content="{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}" property="og:title"/>
 
 {% if page.date %}
-<meta content="{{ site.url }}{{ page.url }}" name="url">
-<meta content="{{ site.url }}{{ page.url }}" property="og:url"/>
+<meta content="{{ site.baseurl }}{{ page.url }}" name="url">
+<meta content="{{ site.baseurl }}{{ page.url }}" property="og:url"/>
 <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" name="description">
 <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" property="og:description"/>
 <meta content="article" name="type">
 <meta content="article" property="og:type"/>
 {% else %}
-<meta content="{{ site.url }}" name="url">
-<meta content="{{ site.url }}" property="og:url"/>
+<meta content="{{ site.baseurl }}" name="url">
+<meta content="{{ site.baseurl }}" property="og:url"/>
 <meta content="{{ site.description }}" name="description">
 <meta content="{{ site.description }}" property="og:description"/>
 <meta content="blog" name="type">
