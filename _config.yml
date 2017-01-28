@@ -52,3 +52,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - Rakefile
