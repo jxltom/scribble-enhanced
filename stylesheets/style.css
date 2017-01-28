@@ -257,7 +257,7 @@ section.post {
     line-height: 1.5em;
     margin-bottom: 60px; }
     section.post h1 .date {
-      color: black;
+      color: #d0d0d0;
       font-size: 10px; }
   section.post iframe {
     width: 100%; }
