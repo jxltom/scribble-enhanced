@@ -1,12 +1,21 @@
 # scribble-cn
 
-## Features
+A Jekyll theme which has been made some enhancements from [scribble](https://github.com/muan/scribble). See demo here [https://jxltom.github.io/scribble-cn/](https://jxltom.github.io/scribble-cn/).
 
-- Duoshuo support
+## Overview
 
-- Wide page width
+- Features
 
-- Enable or disable comments for each post
+    - Wide page width
+
+    - Enable or disable comments for each post
+
+- Intergrations
+
+    - Duoshuo
+
+    - Disqus
+
 
 ## Usage
 
@@ -77,6 +86,10 @@ Note that there are currently two branches. All development should be pushed to 
             - Emoji
 
             - Check box
+
+### TODO
+
+- SEO optimization
 
 ### References
 
