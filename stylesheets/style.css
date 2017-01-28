@@ -78,6 +78,10 @@ blockquote {
 header {
   text-align: center; }
 
+
+#page_title,  #page_title:hover {
+  color: #1d5884; }
+
 footer {
   width: 100%;
   max-width: 768px;
