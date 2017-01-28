@@ -12,7 +12,9 @@
 <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
 <meta content='text/html; charset=utf-8' http-equiv='content-type' />
 <meta content="{{ site.url }}/og.png" property="og:image" />
+{% if site.facebook_appid %}
 <meta content="{{ site.facebook_appid }}" property="fb:app_id" />
+{% endif %}
 {% if page.date %}
   <meta content='{{ site.url }}{{ page.url }}' property='og:url' />
   <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" property='og:description' />
@@ -24,6 +26,7 @@
 {% endif %}
 <!-- - -->
 {% include ga.html %}
+{% if site.facebook_appid %}
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -31,3 +34,4 @@
   js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId={{ site.facebook_appid }}";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+{% endif %}
