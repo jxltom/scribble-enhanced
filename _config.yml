@@ -15,7 +15,7 @@ links:
   - name:         About
     url:          /about
   - name:         GitHub
-    url:          http://github.com/jxltom
+    url:          http://github.com/jxltom/scribble-cn
     external:     true
 permalink:        pretty
 
