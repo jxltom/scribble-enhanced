@@ -4,7 +4,7 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
 - Features
 
-    - Wide page width
+    - Wide page
 
     - Enable/disable comments for each post
 
@@ -12,7 +12,7 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
     - [Disqus](https://disqus.com/)
 
-    - [DuoShuo](http://duoshuo.com/)
+    - [duoshuo](http://duoshuo.com/)
 
     - Google Analytics
 
@@ -22,27 +22,27 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
     - [Fork the repository](https://github.com/jxltom/scribble-cn/fork).
 
-    - Change repository to ```your_username.github.io```.
+    - Change repository name to ```your_username.github.io```.
 
-    - View your pages from ```Http://your_username.github.io```.
+    - Set ```master``` branch as source of GitHub Pages. Then your website will be ```Http://your_username.github.io```.
 
 - Configuration
 
-    - Edit ```_config.yml```
+    - ```_config.yml```
 
-        - Set ```url``` if you website is not ```your_username.github.io```
+        - Set ```url``` if you website domain is not ```your_username.github.io```
 
-    - Change ```about.md``` for blog introduction.
+    - Change ```about.md``` for as about page.
 
     - For custom domain settings, set ```CNAME``` to your domain.
 
 - Posts
 
-    - Push new post with name formatted as ```YYYY-MM-DD-post-name.md``` in ```_posts``` folder.
+    - Push new post with name as ```YYYY-MM-DD-post-name.md``` in ```_posts``` folder.
 
-    - Options in meta-data of a post
+    - Options of a post. You can add options in meta-data of post source.
 
-        - ```comment: y```. If ```comment``` is set to ```y```, at the end of the post there will be a ```Disqus``` or ```DuoShuo``` thread. To enable comments, you also need to provide ```disqus_shortname``` or ```duoshuo_id``` in ```_config.yml```.
+        - ```comment: y```. If ```comment``` is set to ```y```, at the end of the post there will be a ```Disqus``` or ```duoshuo``` thread. To enable comments, you also need to provide ```disqus_shortname``` or ```duoshuo_id``` in ```_config.yml```.
 
         - ```share: y```. An option for showing tweet and like button under a post.
 
@@ -50,9 +50,9 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
     - GFM
 
-        - Start header from ```##``` since the title will be considered as ```#```.
+        - Start header from ```##``` in your post since the post title will be considered as ```#```.
 
-        - Hard line breaks in paragraphs are enforced by default
+        - Hard line breaks in paragraphs are enforced by default in GFM parser of kramdown, which is the only parser of markdown in GitHub.
 
         - Note that following features of GFM are not supported since kramdown GFM parser, which is the only Github mardown parser, doesn't support them currently.
 
@@ -62,7 +62,7 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
 ## Development
 
-Note that there are currently two branches. All development should be pushed to ```master```. Branch ```gh-pages``` is only for demo.
+Note that there are currently two branches. **All development should be pushed to ```master```**. Branch ```gh-pages``` is only for demo.
 
 - Custom page width
 
@@ -77,6 +77,8 @@ Note that there are currently two branches. All development should be pushed to 
 - SEO optimization
 
 - Better share function
+
+- CNZZ integration
 
 ### References
 
