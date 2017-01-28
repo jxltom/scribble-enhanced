@@ -80,6 +80,8 @@ Note that there are currently two branches. **All development should be pushed t
 
 - CNZZ integration
 
+- Tags support
+
 ### References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown)
