@@ -24,7 +24,7 @@
 
     - Options in meta-data during writing
 
-        - **comment: y**. If comment is set to 'y', at the end of the post there will be a disqus or duoshuo thread. To use comments, you also need to provide shortname of disqus or id of duoshuo in ```_config.yml```.
+        - **comment: y**. If comment is set to 'y', at the end of the post there will be a disqus or duoshuo thread. To use comments, you also need to provide ```disqus_shortname``` or ```duoshuo_id``` in ```_config.yml```.
 
         - **share: y**. An option for showing tweet and like button under a post.
 
