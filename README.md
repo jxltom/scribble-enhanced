@@ -90,3 +90,4 @@ Note that there are currently two branches. **All development should be pushed t
 - [GFM input for Kramdown not working](https://github.com/jekyll/jekyll/issues/4529)
 - [kramdown Parser](https://kramdown.gettalong.org/parser/kramdown.html)
 - [GFM Parser](https://kramdown.gettalong.org/parser/gfm.html)
+- [The Open Graph protocol](http://ogp.me/)
