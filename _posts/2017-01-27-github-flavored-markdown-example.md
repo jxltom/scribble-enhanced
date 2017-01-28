@@ -4,6 +4,8 @@ title: Github Flavored Markdown Example
 comment: y
 ---
 
+---
+
 ## Syntax guide
 
 ### Emphasis
@@ -52,6 +54,8 @@ As Kanye West said:
 
 I think you should use an
 `<addr>` element here instead.
+
+---
 
 ## GitHub Flavored Markdown
 
