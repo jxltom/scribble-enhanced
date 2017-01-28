@@ -2,7 +2,7 @@
 layout: post
 title: Github Flavored Markdown Example
 date: 2017-01-28 13:05:00
-disqus: y
+comment: y
 ---
 
 ## Syntax guide
