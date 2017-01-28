@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: default
 ---
 
 <ul class="posts">
