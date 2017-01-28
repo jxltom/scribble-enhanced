@@ -12,7 +12,7 @@ url:              https://jxltom.github.io/scribble-cn
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl:          https://jxltom.github.io/scribble-cn
+baseurl:          /scribble-cn
 
 signoff:          # Your name for signoff. Leave empty for no name signoff.
 disqus_shortname: # Shortname of disqus for comments in post. You can only set one between disqus_shortname and duoshuo id or leave empty if unwanted.
