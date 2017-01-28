@@ -47,3 +47,7 @@
     - Change ```margin-left``` of ```.paging .right``` to half width pf desired width plus ```20px```
 
     - Change ```margin-right``` of ```.paging .left``` to half width pf desired width plus ```40px```
+
+- GFM
+
+    - [Mastering Markdown](https://guides.github.com/features/mastering-markdown)
