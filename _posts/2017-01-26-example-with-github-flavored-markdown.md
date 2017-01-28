@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Github Flavored Markdown Example
+title: Example with Github Flavored Markdown
 comment: y
 ---
 
