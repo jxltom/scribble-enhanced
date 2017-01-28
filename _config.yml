@@ -1,9 +1,10 @@
 title:            scribble-cn
-description:      # Site description showing in site meta data, leave empty if unwanted.
+# Site description showing in site meta data, leave empty if unwanted.
+description:      scribble-cn, a Jekyll theme
 url:              # Site url, without a slash at the end. By default, it is domain hosted your website.
 signoff:          # Your name for signoff. Leave empty if unwanted.
 disqus_shortname: # Shortname of disqus for comments in post. You can only set one between disqus_shortname and duoshuo id or leave empty if unwanted.
-duoshuo_id:       jxltom
+duoshuo_id:       # ID of duoshuo for comments in post. You can only set one between disqus_shortname and duoshuo id or leave empty if unwanted.
 facebook_appid:   # Appid for like button. Leave empty if unwanted.
 google_analytics: # Account if google_analytics. Leave empty if unwanted.
 
