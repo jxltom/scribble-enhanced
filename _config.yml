@@ -2,7 +2,8 @@ title:            scribble-cn
 description:      # Site description which will show in site meta data
 url:              # Site url, without a slash at the end.
 signoff:          # Your name.
-comment_id:       # Id of duoshuo or shortname of disqus. Leave blank if unwanted.
+disqus_shortname: # Shortname of disqus for comments in post. You can only set one between disqus_shortname and duoshuo id.
+duoshuo_id:       # ID of duoshuo for comments in post. You can only set one between disqus_shortname and duoshuo id.
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
 
