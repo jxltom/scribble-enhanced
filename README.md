@@ -46,8 +46,6 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
         - ```share: y```. An option for showing tweet and like button under a post.
 
-        - ```date: 2017-01-28 14:24:00```. Date is not a required since Jekyll reads the file name for date. This can be added for customized signoff time.
-
     - GFM
 
         - Start header from ```##``` in your post since the post title will be considered as ```#```.
@@ -91,3 +89,4 @@ Note that there are currently two branches. **All development should be pushed t
 - [kramdown Parser](https://kramdown.gettalong.org/parser/kramdown.html)
 - [GFM Parser](https://kramdown.gettalong.org/parser/gfm.html)
 - [The Open Graph protocol](http://ogp.me/)
+- [truncatewords is unsafe](https://github.com/barryclark/jekyll-now/issues/117)
