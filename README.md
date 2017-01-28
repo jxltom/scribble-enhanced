@@ -4,7 +4,7 @@
 
 - Duoshuo support
 
-- Customized page width
+- Wide page width
 
 ## Get started
 
@@ -29,3 +29,13 @@
     - **share: y**. An option for showing tweet and like button under a post.
 
     - **date**: 2013-05-06 18:07:17. Date is not a required header since Jekyll reads the file name for date, this was added in only for the **signoff time**. (as shown at the end of this post) If you don't want the signoff time, go into `/includes/signoff.html` remove the `<span>`, and remove `{% include signoff.html %}` from `/layouts/post.html`.
+
+## Development
+
+- Custom page width
+
+    - Change ```max-width``` of ```footer``` and ```#container```
+
+    - Change ```margin-left``` of ```.paging .right``` to half width pf desired width plus ```20px```
+
+    - Change ```margin-right``` of ```.paging .left``` to half width pf desired width plus ```40px```
