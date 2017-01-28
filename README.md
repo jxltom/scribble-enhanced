@@ -8,6 +8,8 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
     - Enable/disable comments for each post
 
+    - ```feed.xml``` and ```sitemap.xml``` using official Jekyll sitemap gem and feed gem
+
 - Intergrations
 
     - [Disqus](https://disqus.com/)

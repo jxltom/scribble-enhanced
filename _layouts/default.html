@@ -7,14 +7,14 @@
     {% include meta.html %}
     {% include css_js.html %}
 
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.url }}/feed.xml"/>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml"/>
 </head>
 
 <body>
 
 <header>
-    <a id="go-back-home" href="{{ site.url }}"><img src="{{ site.url }}/images/scribble.png" alt="scribble" width="53" height="59"></a>
-    <p><a id="page_title" href="{{ site.url }}">{{ site.title }}</a></p>
+    <a id="go-back-home" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/images/scribble.png" alt="scribble" width="53" height="59"></a>
+    <p><a id="page_title" href="{{ site.baseurl }}">{{ site.title }}</a></p>
 </header>
 
 <div id="container">
@@ -24,7 +24,7 @@
 
 <footer>
     <p>Built with <a href="http://jekyllrb.com/" class="muted">Jekyll</a> using <a href="http://github.com/jxltom/scribble-cn" class="muted">scribble-cn</a> theme</p>
-    <img src="{{ site.url }}/images/scribble-footer.png" alt="scribble"/>
+    <img src="{{ site.baseurl }}/images/scribble-footer.png" alt="scribble"/>
 </footer>
 
 </body>
