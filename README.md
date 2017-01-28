@@ -50,4 +50,24 @@
 
 - GFM
 
-    - [Mastering Markdown](https://guides.github.com/features/mastering-markdown)
+    - Example of GFM
+
+        - [Mastering Markdown](https://guides.github.com/features/mastering-markdown)
+
+    - Features
+
+        - Hard line breaks in paragraphs are enforced by default
+
+        - Note that following features are not supported since Githubpages only support kramdown and kramdown doesn't support them.
+
+            - Emoji
+
+            - Check box
+
+### References
+
+- [GFM mode does not support check boxes](https://github.com/gettalong/kramdown/issues/346)
+- [Feature Requests](https://github.com/gettalong/kramdown/projects/1)
+- [GFM input for Kramdown not working](https://github.com/jekyll/jekyll/issues/4529)
+- [kramdown Parser](https://kramdown.gettalong.org/parser/kramdown.html)
+- [GFM Parser](https://kramdown.gettalong.org/parser/gfm.html)
