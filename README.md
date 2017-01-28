@@ -1,4 +1,4 @@
-A Jekyll theme which has been made some enhancements from [scribble](https://github.com/muan/scribble). See demo here [https://jxltom.github.io/scribble-cn/](https://jxltom.github.io/scribble-cn/).
+An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://jxltom.github.io/scribble-cn/](https://jxltom.github.io/scribble-cn/).
 
 ## Overview
 
@@ -6,13 +6,13 @@ A Jekyll theme which has been made some enhancements from [scribble](https://git
 
     - Wide page width
 
-    - Enable or disable comments for each post
+    - Enable/disable comments for each post
 
 - Intergrations
 
-    - Duoshuo
+    - [Disqus](https://disqus.com/)
 
-    - Disqus
+    - [DuoShuo](http://duoshuo.com/)
 
     - Google Analytics
 
@@ -22,31 +22,9 @@ A Jekyll theme which has been made some enhancements from [scribble](https://git
 
     - [Fork the repository](https://github.com/jxltom/scribble-cn/fork).
 
-    - Change repository to ```your_username.github.io```
+    - Change repository to ```your_username.github.io```.
 
-    - View your pages from ```Http://your_username.github.io```
-
-- Writing posts
-
-    - Push new post with name ```YYYY-MM-DD-more-post.md``` in ```_posts``` folder.
-
-    - Options in meta-data during writing
-
-        - **comment: y**. If comment is set to 'y', at the end of the post there will be a disqus or duoshuo thread. To use comments, you also need to provide ```disqus_shortname``` or ```duoshuo_id``` in ```_config.yml```.
-
-        - **share: y**. An option for showing tweet and like button under a post.
-
-        - **date**: ```2017-01-28 14:24:00```. Date is not a required header since Jekyll reads the file name for date, this was added in only for the **signoff time**. If you don't want the signoff time, go into `/includes/signoff.html` remove the `<span>`, and remove `{% include signoff.html %}` from `/layouts/post.html`.
-
-    - GFM
-
-        - Start header from ```##``` since the title will be considered as ```#```.
-
-        - Following featurs are not supported.
-
-            - emoji.
-
-            - Check box.
+    - View your pages from ```Http://your_username.github.io```.
 
 - Configuration
 
@@ -54,44 +32,55 @@ A Jekyll theme which has been made some enhancements from [scribble](https://git
 
         - Set ```url``` if you website is not ```your_username.github.io```
 
-    - Change ```about.md``` for blog intro.
+    - Change ```about.md``` for blog introduction.
 
-    - For domain settings, see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
+    - For custom domain settings, set ```CNAME``` to your domain.
 
-## Development
+- Posts
 
-Note that there are currently two branches. All development should be pushed to ```master```. Branch ```gh-pages`` is only for demostration.
+    - Push new post with name formatted as ```YYYY-MM-DD-post-name.md``` in ```_posts``` folder.
 
-- Custom page width
+    - Options in meta-data of a post
 
-    - Change ```max-width``` of ```footer``` and ```#container```
+        - ```comment: y```. If ```comment``` is set to ```y```, at the end of the post there will be a ```Disqus``` or ```DuoShuo``` thread. To enable comments, you also need to provide ```disqus_shortname``` or ```duoshuo_id``` in ```_config.yml```.
 
-    - Change ```margin-left``` of ```.paging .right``` to half width pf desired width plus ```20px```
+        - ```share: y```. An option for showing tweet and like button under a post.
 
-    - Change ```margin-right``` of ```.paging .left``` to half width pf desired width plus ```40px```
+        - ```date: 2017-01-28 14:24:00```. Date is not a required since Jekyll reads the file name for date. This can be added for customized signoff time.
 
-- GFM
+    - GFM
 
-    - Example of GFM
-
-        - [Mastering Markdown](https://guides.github.com/features/mastering-markdown)
-
-    - Features
+        - Start header from ```##``` since the title will be considered as ```#```.
 
         - Hard line breaks in paragraphs are enforced by default
 
-        - Note that following features are not supported since Githubpages only support kramdown and kramdown doesn't support them.
+        - Note that following features of GFM are not supported since kramdown GFM parser, which is the only Github mardown parser, doesn't support them currently.
 
             - Emoji
 
             - Check box
 
+## Development
+
+Note that there are currently two branches. All development should be pushed to ```master```. Branch ```gh-pages``` is only for demo.
+
+- Custom page width
+
+    - Change ```max-width``` of ```footer``` and ```#container```.
+
+    - Change ```margin-left``` of ```.paging .right``` to half width of desired width plus ```20px```.
+
+    - Change ```margin-right``` of ```.paging .left``` to half width of desired width plus ```40px```.
+
 ### TODO
 
 - SEO optimization
 
+- Better share function
+
 ### References
 
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown)
 - [GFM mode does not support check boxes](https://github.com/gettalong/kramdown/issues/346)
 - [Feature Requests](https://github.com/gettalong/kramdown/projects/1)
 - [GFM input for Kramdown not working](https://github.com/jekyll/jekyll/issues/4529)
