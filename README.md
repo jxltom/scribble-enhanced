@@ -22,15 +22,15 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
     - [Fork the repository](https://github.com/jxltom/scribble-cn/fork).
 
-    - Change repository name to ```your_username.github.io```.
+    - Change repository name to ```yourgithubusername.github.io```.
 
-    - Set ```master``` branch as source of GitHub Pages. Then your website will be ```Http://your_username.github.io```.
+    - Set ```master``` branch as source of GitHub Pages. Then your website will be ```Http://yourgithubusername.github.io```.
 
 - Configuration
 
     - Configuration of ```_config.yml```
 
-        - Set ```url``` if you website domain is not ```your_username.github.io```.
+        - Set ```url``` if you website domain is not ```yourgithubusername.github.io```.
 
     - Change ```about.md``` for ```about``` page.
 
