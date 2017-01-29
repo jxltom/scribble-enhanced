@@ -3,10 +3,10 @@
 #
 
 # Title of your site (displayed in the header)
-title:            scribble-cn
+title:            scribble-enhanced
 
 # Short bio or description (displayed in the header)
-description:      scribble-cn, a Jekyll theme
+description:      scribble-enhanced, a Jekyll theme
 
 # Your website URL (e.g. http://jxltom.github.io or http://blog.jxltom.me)
 # Used for sitemap.xml and your RSS feed
@@ -47,7 +47,7 @@ links:
   - name:         About
     url:          /about
   - name:         GitHub
-    url:          http://github.com/jxltom/scribble-cn
+    url:          http://github.com/jxltom/scribble-enhanced
     external:     true
 permalink:        pretty
 

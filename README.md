@@ -1,4 +1,4 @@
-An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://jxltom.github.io/scribble-cn/](https://jxltom.github.io/scribble-cn/).
+An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://jxltom.github.io/scribble-enhanced/](https://jxltom.github.io/scribble-enhanced/).
 
 ## Overview
 
@@ -22,7 +22,7 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
 - Getting started
 
-    - [Fork the repository](https://github.com/jxltom/scribble-cn/fork).
+    - [Fork the repository](https://github.com/jxltom/scribble-enhanced/fork).
 
     - Change repository name to ```yourgithubusername.github.io```.
 
