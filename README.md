@@ -96,13 +96,13 @@ Note that there are currently two branches. **All development should be pushed t
 
 - SEO optimization
 
-- Better share function
+- Better sharing function
 
 - CNZZ integration
 
 - Tags support
 
-- Relative path of background image in CSS
+- Add subheading support by ```page.description```
 
 ### References
 
