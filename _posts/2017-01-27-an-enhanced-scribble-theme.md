@@ -41,9 +41,9 @@ title: An Enhanced Scribble Jekyll Theme
 
     - ```description```. Short bio or description which will display in the header.
 
-    - ```url```. Your website URL (e.g. ```http://jxltom.github.io``` or http```://blog.jxltom.me```). Used for sitemap.xml and your RSS feed. If you're hosting your site at a Project repository, the url still should be ```http://yourusername.github.io```
+    - ```url```. Your website URL (e.g. ```http://jxltom.github.io``` or ```http://blog.jxltom.me```). Used for sitemap.xml and your RSS feed. If you're hosting your site at a Project repository, the url still should be ```http://yourusername.github.io```.
 
-    - ```baseurl```. If you're hosting your site at a Project repository on GitHub pages (```http://yourusername.github.io/repository-name```) and NOT your User repository (```http://yourusername.github.io```) then add in the baseurl here, like this: ```/repository-name```.
+    - ```baseurl```. If you're hosting your site at a Project repository on GitHub pages (```http://yourusername.github.io/repository-name```), NOT your User repository (```http://yourusername.github.io```), and Not using a custom domain. Then add in the baseurl here, like this: ```/repository-name```.
 
 - Optional configuration of ```_config.yml```.
 
@@ -57,7 +57,7 @@ title: An Enhanced Scribble Jekyll Theme
 
 - Custom ```about``` page. Update content or delete ```about.md``` for costom ```about``` page.
 
-- Domain. For custom domain settings, set ```CNAME``` to your domain.
+- Domain. For custom domain settings, set ```CNAME``` file to your domain and add ```CNAME``` record in your DNS provider. Find more info in [Using a custom domain with GitHub Pages](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).
 
 ### Blogging
 
@@ -93,19 +93,19 @@ title: An Enhanced Scribble Jekyll Theme
 
 ## Development
 
-Note that there are currently two branches. **All development should be pushed to ```master```**. Branch ```gh-pages``` is only for demo.
+**All development should be pushed to master branch**. Branch ```gh-pages``` is only for demo.
 
 ### TODO
 
 - SEO optimization
 
-- Better share function
+- Better sharing function
 
 - CNZZ integration
 
 - Tags support
 
-- Relative path of background image in CSS
+- Add subheading support by ```page.description```
 
 ### References
 
