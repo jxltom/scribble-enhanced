@@ -3,8 +3,6 @@ layout: post
 title: An Enhanced Scribble Jekyll Theme
 ---
 
-An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://jxltom.github.io/scribble-enhanced/](https://jxltom.github.io/scribble-enhanced/).
-
 ## Overview
 
 - Features
