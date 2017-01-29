@@ -37,7 +37,7 @@ _You **can** combine them_
 
 #### Images
 
-![scribble-enhanced logo](/images/scribble.png)
+![scribble-enhanced logo]({{ site.baseurl }}/images/scribble.png)
 
 ### Links
 
