@@ -37,7 +37,7 @@ _You **can** combine them_
 
 #### Images
 
-![GitHub Logo](/images/scribble.png)
+![GitHub Logo]({{ site.baseurl }} /images/scribble.png)
 
 ### Links
 
