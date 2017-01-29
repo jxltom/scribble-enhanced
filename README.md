@@ -1,4 +1,4 @@
-An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://scribble.rel.jxltom.me/](https://scribble.rel.jxltom.me/).
+An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://scribble.rel.jxltom.me/](http://scribble.rel.jxltom.me/).
 
 ## Overview
 
