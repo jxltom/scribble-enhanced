@@ -1,6 +1,7 @@
 ---
 layout: post
 title: An Enhanced Scribble Jekyll Theme
+comment: y
 ---
 
 ## Overview
