@@ -1,12 +1,18 @@
-<link href='{{ site.baseurl }}/images/fav.png' rel='shortcut icon'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'/>
-<link href='{{ site.baseurl }}/stylesheets/style.css' rel='stylesheet' type='text/css'/>
-<link href='{{ site.baseurl }}/stylesheets/syntax.css' rel='stylesheet' type='text/css'/>
-<link href='{{ site.baseurl }}/stylesheets/responsive.css' rel='stylesheet' type='text/css'/>
+<link href="{{ site.baseurl }}/images/fav.png" rel="shortcut icon">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css"/>
+<link href="{{ site.baseurl }}/stylesheets/style.css" rel="stylesheet" type="text/css"/>
+<link href="{{ site.baseurl }}/stylesheets/syntax.css" rel="stylesheet" type="text/css"/>
+<link href="{{ site.baseurl }}/stylesheets/responsive.css" rel="stylesheet" type="text/css"/>
 
-<script src='{{ site.baseurl }}/javascripts/jquery.js' type='text/javascript'></script>
-<script src='{{ site.baseurl }}/javascripts/pd.js' type='text/javascript'></script>
-<script src='{{ site.baseurl }}/javascripts/basics.js' type='text/javascript'></script>
+<style>
+    a.main, a:hover, .as-link.main, .as-link:hover {
+        background-image: url("{{ site.baseurl }}/images/line.png"); }
+</style>
+
+
+<script src="{{ site.baseurl }}/javascripts/jquery.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/javascripts/pd.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/javascripts/basics.js" type="text/javascript"></script>
 
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,5 +31,5 @@
     js.id = id;
     js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId={{ site.facebook_appid }}";
     fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, "script", "facebook-jssdk"));</script>
 {% endif %}
