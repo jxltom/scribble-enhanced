@@ -4,7 +4,7 @@
 <div class="block">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
-        var disqus_shortname = "{{ site.disqus_shortname }}";
+        var disqus_shortname = "{{ site.disqus }}";
         (function () {
             var dsq = document.createElement('script');
             dsq.type = 'text/javascript';
@@ -19,9 +19,9 @@
 
 {% if site.duoshuo %}
 <div class="block">
-    <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ page.url }}" data-author-key="{{ site.duoshuo_id }}"></div>
+    <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ page.url }}" data-author-key="{{ site.duoshuo }}"></div>
     <script type="text/javascript">
-        var duoshuoQuery = {short_name: "{{ site.duoshuo_id}}"};
+        var duoshuoQuery = {short_name: "{{ site.duoshuo }}"};
         (function () {
             var ds = document.createElement('script');
             ds.type = 'text/javascript';
