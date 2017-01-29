@@ -6,17 +6,18 @@
 title:            scribble-enhanced
 
 # Short bio or description which will display in the header.
-description:      scribble-enhanced, a Jekyll theme
+description:      An enhanced scribble Jekyll theme
 
 # Your website URL (e.g. http://jxltom.github.io or http://blog.jxltom.me)
 # Used for sitemap.xml and your RSS feed
 # If you're hosting your site at a Project repository, the url still should be
 # http://yourusername.github.io
-url:              http://jxltom.github.io
+url:              http://scribble.rel.jxltom.me
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
+# and Not using a custom domain
 # then add in the baseurl here, like this: "/repository-name"
 baseurl:          ""
 
@@ -48,7 +49,7 @@ links:
   - name:         About
     url:          /about
   - name:         GitHub
-    url:          http://github.com/jxltom/scribble-enhanced
+    url:          https://github.com/jxltom/scribble-enhanced
     external:     true
 permalink:        pretty
 
