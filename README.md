@@ -54,7 +54,7 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
 - Custom ```about``` page. Update content or delete ```about.md``` for costom ```about``` page.
 
-- Domain. For custom domain settings, set ```CNAME``` to your domain.
+- Domain. For custom domain settings, set ```CNAME``` file to your domain and add ```CNAME``` record in your DNS provider. Find more info in [Using a custom domain with GitHub Pages](https://help.github.com/articles/using-a-custom-domain-with-github-pages/).
 
 ### Blogging
 
@@ -90,7 +90,7 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
 ## Development
 
-Note that there are currently two branches. **All development should be pushed to ```master```**. Branch ```gh-pages``` is only for demo.
+**All development should be pushed to master branch**. Branch ```gh-pages``` is only for demo.
 
 ### TODO
 
