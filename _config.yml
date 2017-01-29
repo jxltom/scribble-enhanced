@@ -2,11 +2,11 @@
 # This file contains configuration flags to customize your site
 #
 
-# Title of your site (displayed in the header)
-title:            scribble-cn
+# Title of your site which will display in the header.
+title:            scribble-enhanced
 
-# Short bio or description (displayed in the header)
-description:      scribble-cn, a Jekyll theme
+# Short bio or description which will display in the header.
+description:      scribble-enhanced, a Jekyll theme
 
 # Your website URL (e.g. http://jxltom.github.io or http://blog.jxltom.me)
 # Used for sitemap.xml and your RSS feed
@@ -20,6 +20,7 @@ url:              http://jxltom.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl:          /scribble-cn
 
+
 #
 # Flags below are optional
 #
@@ -31,13 +32,13 @@ signoff:
 # Or your duoshuo ID to enable commenting on posts.
 # You can find your shortname on the Settings page of your Disqus account.
 # You can only set one between disqus_shortname and duoshuo_id.
-disqus_shortname:
-duoshuo_id:
+disqus:
+duoshuo:
 
 # Appid for like button. Leave empty if unwanted.
 facebook_appid:
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking.
 google_analytics:
 
 # A list of links which will show as navigation bar.
@@ -47,9 +48,10 @@ links:
   - name:         About
     url:          /about
   - name:         GitHub
-    url:          http://github.com/jxltom/scribble-cn
+    url:          http://github.com/jxltom/scribble-enhanced
     external:     true
 permalink:        pretty
+
 
 #
 # !! You don't need to change any of the configuration flags below !!
