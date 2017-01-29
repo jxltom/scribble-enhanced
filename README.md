@@ -16,9 +16,9 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
     - [Disqus](https://disqus.com/)
 
-    - [duoshuo](http://duoshuo.com/)
+    - [duoshuo(多说)](http://duoshuo.com/)
 
-    - Google Analytics
+    - [Google Analytics](http://www.google.com/analytics/)
 
 ## Usage
 
