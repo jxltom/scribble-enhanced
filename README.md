@@ -4,11 +4,11 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
 - Features
 
-    - Wide page
+    - Customized page width
 
     - Enable/disable comments for each post
 
-    - ```feed.xml``` and ```sitemap.xml``` using official Jekyll sitemap gem and feed gem
+    - RSS feed and Sitemap using official Jekyll sitemap gem and feed gem
 
 - Intergrations
 
@@ -30,27 +30,43 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
 - Configuration
 
-    - Configuration of ```_config.yml```
+    - Basic configuration of ```_config.yml```.
 
-        - Set ```url``` if you website domain is not ```yourgithubusername.github.io```.
+        - ```title```. Title of your site which will display in the header.
 
-    - Change ```about.md``` for ```about``` page.
+        - ```description```. Short bio or description which will display in the header.
 
-    - For custom domain settings, set ```CNAME``` to your domain.
+        - ```url```. Your website URL (e.g. ```http://jxltom.github.io``` or http```://blog.jxltom.me```). Used for sitemap.xml and your RSS feed. If you're hosting your site at a Project repository, the url still should be ```http://yourusername.github.io```
 
-- Posts
+        - ```baseurl```. If you're hosting your site at a Project repository on GitHub pages (```http://yourusername.github.io/repository-name```) and NOT your User repository (```http://yourusername.github.io```) then add in the baseurl here, like this: ```/repository-name```.
+
+    - Optional configuration of ```_config.yml```.
+
+        - ```signoff```. Your name for signoff. Leave empty for no name signoff.
+
+        - ```disqus``` or ```duoshuo```. Enter your ```Disqus``` shortname (not your username) or your ```duoshuo``` ID to enable commenting on posts. You can find your shortname on the Settings page of your Disqus account. You can only set one between ```disqus``` and ```duoshuo```.
+
+        - ```google_analytics```. Enter your Google Analytics web tracking code (e.g. ```UA-2110908-2```) to activate tracking.
+
+        - ```links```. A list of links which will show as navigation bar.
+
+    - Custom ```about``` page. Update content or delete ```about.md``` for costom ```about``` page.
+
+    - Domain. For custom domain settings, set ```CNAME``` to your domain.
+
+- Blogging
 
     - Push new post with name as ```YYYY-MM-DD-post-name.md``` in ```_posts``` folder.
 
-    - Options of a post. You can add options in meta-data of post source.
+    - Options of a post. You can add options in metadata of a post header.
 
-        - ```comment: y```. If ```comment``` is set to ```y```, at the end of the post there will be a ```Disqus``` or ```duoshuo``` thread. To enable comments, you also need to provide ```disqus_shortname``` or ```duoshuo_id``` in ```_config.yml```.
+        - ```comment: y```. If ```comment``` is set to ```y```, at the end of the post there will be a ```Disqus``` or ```duoshuo``` thread. To enable comments, you also need to provide ```disqus``` or ```duoshuo``` in ```_config.yml```.
 
         - ```share: y```. An option for showing tweet and like button under a post.
 
     - GFM
 
-        - Start header from ```##``` in your post since the post title will be considered as ```#```.
+        - Start header from ```##``` in your post since title of post will be considered as ```#```.
 
         - Hard line breaks in paragraphs are enforced by default in GFM parser of kramdown, which is the only parser of markdown in GitHub.
 
