@@ -31,8 +31,8 @@ signoff:
 # Or your duoshuo ID to enable commenting on posts.
 # You can find your shortname on the Settings page of your Disqus account.
 # You can only set one between disqus_shortname and duoshuo_id.
-disqus_shortname:
-duoshuo_id:
+disqus:
+duoshuo:
 
 # Appid for like button. Leave empty if unwanted.
 facebook_appid:

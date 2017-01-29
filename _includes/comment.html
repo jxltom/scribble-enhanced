@@ -1,6 +1,6 @@
 {% if page.comment == 'y' %}
 
-{% if site.disqus_shortname %}
+{% if site.disqus %}
 <div class="block">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -17,7 +17,7 @@
 </div>
 {% endif %}
 
-{% if site.duoshuo_id %}
+{% if site.duoshuo %}
 <div class="block">
     <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ page.url }}" data-author-key="{{ site.duoshuo_id }}"></div>
     <script type="text/javascript">
