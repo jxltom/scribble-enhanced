@@ -90,7 +90,7 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
 ## Development
 
-Note that there are currently two branches. **All development should be pushed to ```master```**. Branch ```gh-pages``` is only for demo.
+**All development should be pushed to master branch**. Branch ```gh-pages``` is only for demo.
 
 ### TODO
 
