@@ -98,6 +98,8 @@ Note that there are currently two branches. **All development should be pushed t
 
 - Tags support
 
+- Relative path of background image in CSS
+
 ### References
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown)
@@ -112,3 +114,5 @@ Note that there are currently two branches. **All development should be pushed t
 - [Adding permalink to 404.html](https://github.com/muan/scribble/pull/42)
 - [Creating a custom 404 page for your GitHub Pages site](https://help.github.com/articles/creating-a-custom-404-page-for-your-github-pages-site/)
 - [Update 404 for new Jekyll 3](https://github.com/barryclark/jekyll-now/pull/404)
+- [baseurl / base-url: GitHub Pages Project Pages - Relative Links Fail ](https://github.com/jekyll/jekyll/issues/332)
+- [Jekyll accessing page variables from CSS](http://stackoverflow.com/questions/18155203/jekyll-accessing-page-variables-from-css)
