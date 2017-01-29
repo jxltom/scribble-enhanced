@@ -46,7 +46,7 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
     - ```signoff```. Your name for signoff. Leave empty for no name signoff.
 
-    - ```disqus``` or ```duoshuo```. Enter your ```Disqus``` shortname (not your username) or your ```duoshuo``` ID to enable commenting on posts. You can find your shortname on the Settings page of your Disqus account. You can only set one between ```disqus``` and ```duoshuo```.
+    - ```disqus``` or ```duoshuo```. Enter your ```Disqus``` shortname (not your username) or your ```duoshuo``` shortname to enable commenting on posts. You can find your shortname on the Settings page of your Disqus account. You can only set one between ```disqus``` and ```duoshuo```.
 
     - ```google_analytics```. Enter your Google Analytics web tracking code (e.g. ```UA-2110908-2```) to activate tracking.
 

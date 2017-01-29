@@ -30,9 +30,9 @@ baseurl:          ""
 signoff:
 
 # Enter your Disqus shortname (not your username)
-# Or your duoshuo ID to enable commenting on posts.
+# or your duoshuo shortname to enable commenting on posts.
 # You can find your shortname on the Settings page of your Disqus account.
-# You can only set one between disqus_shortname and duoshuo_id.
+# You can only set one between disqus and duoshuo.
 disqus:
 duoshuo:          scribble
 
