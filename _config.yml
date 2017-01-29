@@ -43,7 +43,7 @@ google_analytics:
 
 # A list of links which will show as navigation bar.
 links:
-  - name:         Home
+  - name:         Blog
     url:          /
   - name:         About
     url:          /about
