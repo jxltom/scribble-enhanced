@@ -333,7 +333,7 @@ section.post ul ul, section.post ul ol, section.post ol ul, section.post ol ol {
     padding: 0;
 }
 
-section.post ul li {
+section.post ul li, section.post ol li {
     margin-left: 20px;
 }
 
