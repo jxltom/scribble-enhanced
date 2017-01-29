@@ -1,4 +1,4 @@
-An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://jxltom.github.io/scribble-enhanced/](https://jxltom.github.io/scribble-enhanced/).
+An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://scribble.rel.jxltom.me/](https://scribble.rel.jxltom.me/).
 
 ## Overview
 
@@ -38,9 +38,9 @@ An enhanced [scribble](https://github.com/muan/scribble) Jekyll theme. [https://
 
     - ```description```. Short bio or description which will display in the header.
 
-    - ```url```. Your website URL (e.g. ```http://jxltom.github.io``` or http```://blog.jxltom.me```). Used for sitemap.xml and your RSS feed. If you're hosting your site at a Project repository, the url still should be ```http://yourusername.github.io```
+    - ```url```. Your website URL (e.g. ```http://jxltom.github.io``` or ```http://blog.jxltom.me```). Used for sitemap.xml and your RSS feed. If you're hosting your site at a Project repository, the url still should be ```http://yourusername.github.io```.
 
-    - ```baseurl```. If you're hosting your site at a Project repository on GitHub pages (```http://yourusername.github.io/repository-name```) and NOT your User repository (```http://yourusername.github.io```) then add in the baseurl here, like this: ```/repository-name```.
+    - ```baseurl```. If you're hosting your site at a Project repository on GitHub pages (```http://yourusername.github.io/repository-name```), NOT your User repository (```http://yourusername.github.io```), and Not using a custom domain. Then add in the baseurl here, like this: ```/repository-name```.
 
 - Optional configuration of ```_config.yml```.
 
