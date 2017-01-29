@@ -37,7 +37,7 @@ _You **can** combine them_
 
 #### Images
 
-![GitHub Logo](/images/scribble.png)
+![scribble-enhanced logo](/images/scribble.png)
 
 ### Links
 
